@@ -1,7 +1,7 @@
 FROM debian
 
 ENV USERNAME workernode
-ENV TEAM adamantine.me
+ENV TEAM 233907
 ENV POWER medium
 
 RUN apt-get update && apt-get install -y --no-install-recommends curl bzip2 \
